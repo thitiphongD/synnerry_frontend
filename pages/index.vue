@@ -59,7 +59,6 @@
               {{ visit.accessedAt }}
             </td>
             <td class="py-4 px-6 border-b border-gray-300">
-              <!-- Button for the delete action -->
               <button
                 @click="deleteVisit(visit._id)"
                 class="bg-red-500 text-white px-4 py-2 rounded"
